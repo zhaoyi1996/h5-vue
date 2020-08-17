@@ -5,6 +5,8 @@ import Index from '@/components/Index/Index'
 import News from '@/components/Index/News'
 import Search from '@/components/Index/Search'
 import Full from '@/components/Index/Full'
+import Category from '@/components/Index/Category'
+
 
 
 Vue.use(Router)
@@ -27,6 +29,10 @@ export default new Router({
       path: '/full',
       name: 'Full',
       component: Full
+    },{
+      path: '/category',
+      name: 'Category',
+      component: Category
     }
   ]
 })
