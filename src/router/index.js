@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import Index from '@/components/Index/Index'
 import News from '@/components/Index/News'
 import Search from '@/components/Index/Search'
+import Full from '@/components/Index/Full'
+
 
 Vue.use(Router)
 
@@ -21,6 +23,10 @@ export default new Router({
       path: '/search',
       name: 'Search',
       component: Search
+    },{
+      path: '/full',
+      name: 'Full',
+      component: Full
     }
   ]
 })
